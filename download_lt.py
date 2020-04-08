@@ -26,7 +26,7 @@ except ImportError:
 ALT_BASE_URL = os.environ['LANGUAGE_CHECK_DOWNLOAD_HOST'] \
     if os.environ.get('LANGUAGE_CHECK_DOWNLOAD_HOST') \
     else None
-BASE_URL = ALT_BASE_URL or 'https://www.languagetool.org/download/'
+BASE_URL = ALT_BASE_URL or 'https://languagetool.org/download/'
 FILENAME = 'LanguageTool-{version}.zip'
 PACKAGE_PATH = 'language_check'
 JAVA_6_COMPATIBLE_VERSION = '2.2'
